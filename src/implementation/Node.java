@@ -1,6 +1,6 @@
 package implementation;
 
-public class Node<E extends Comparable<E>> implements myinterface.Node<E> {
+public class Node<E extends Comparable<E>> {
     //complete node class
     private E data;
     private Node<E> left;
